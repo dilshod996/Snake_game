@@ -1,4 +1,5 @@
 # Snake_game
 # The old nokia snake game
 # using python
-# python inheritence
+# python class inheritence
+  how to use classes inside of other class
