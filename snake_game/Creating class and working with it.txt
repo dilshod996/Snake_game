@@ -1,0 +1,5 @@
+Creating a class in python.
+	Declare first which library you want to use
+	Next Constants that declared variables that never gonna change entire code with capital letters
+	
+	Always dont forget to initialize your class with init function that makes sense next time when you look it 
