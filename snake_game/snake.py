@@ -25,6 +25,12 @@ class Snake:
         snake_name.goto(position)
         snake_name.color("white")
         self.all_snakes.append(snake_name)
+    def reset(self):
+        for snake in self.all_snakes:
+            snake.goto(1000,1000)
+        self.all_snakes.clear()
+        self.create_snake()
+        self.head = self.all_snakes[0]
 
     def extend_snake(self):
         self.add_part(self.all_snakes[-1].position())
